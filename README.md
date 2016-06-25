@@ -14,7 +14,7 @@ A.	File format: ID	question1	question 2	...	date  ...	network ID
        )
 
 
-2. Run cojointA.R in R
+*2. Run cojointA.R in R*
 
 A. Make a full factorial design with four attributes ("PORT","DURA","BLOD","QUIK"), 
 each with two levels 
@@ -26,7 +26,7 @@ C. Take "des," rename (alt1), create a copy (alt2), jumble up the list
 D. write csv files of alt1 and alt2, where the first line of alt1 and the first line of 
 alt2 together form the first question
 
-3. Run survey.py with Python
+*3. Run survey.py with Python*
 
 A. This script takes the above csv files and formats them in this manner: 
 
