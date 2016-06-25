@@ -4,7 +4,7 @@
 
 Various programs used to create the software needed for developing a point-of-care thromboelastography device 
 +      Conjoint analysis using methods based on http://tolstoy.newcastle.edu.au/R/e10/help/att-8876/DCE_with_R.pdf. Involves "conjointA.R," "conjointB.R", and "survey.py" 
-+      Data aquisition and display system made through Adruino code and wxPython. 
++      Data aquisition and display system made through Adruino code and wxPython. Majority of wxPython code was adapted from        work done by Greg Pinero and Eli Bendersky 
 
 ###Methods
 
@@ -95,13 +95,27 @@ BLOD -1.034     0.355    0.723 -1.43 0.152
 
 *1. Connect microcontroller*
 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+*2. Upload Arduino Software CoagVista_GUI_v2.ino* 
+  + Arduino version: 1.6.9
 
-
-
+*3. Run wx_mpl_dynamic_graphy.py *
+```
+python wx_mpl_dynamic_graphy.py
+```
 
 ###Dependencies 
-+      csv (python)
++      csv (Python)
++      os (Python)
++      pprint (Python)
++      random (Python)
++      sys (Python)
++      wx (Python)
++      matplotlib (Python)
++      numpy (Python)
++      pylab (Python)
++      time (Python)
++      serial (Python) 
++      threading (Python)
 +      AlgDesign (R)
 +      survival (R)
 
