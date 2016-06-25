@@ -13,7 +13,6 @@ A.	File format: ID	question1	question 2	...	date  ...	network ID
        85f68f9033ed14a016557ad62488b84c	A	B	C	B	A	B	A	A	2015-09-21 19:20:46	2015-09-21 19:21:02	c8426baa42
        )
 
-
 *2. Run cojointA.R in R*
 
   + Make a full factorial design with four attributes ("PORT","DURA","BLOD","QUIK"), 
@@ -21,10 +20,10 @@ each with two levels
   + Create a fractional full factorial design ("des") , taking 8 combinations
   + Take "des," rename (alt1), create a copy (alt2), jumble up the list
   + Write csv files of alt1 and alt2, where the first line of alt1 and the first line of alt2 together form the first question
+  
 
 *3. Run survey.py with Python*
-
-  + This script takes the above csv files and formats them in this manner: 
+  + This script takes the above csv files and formats them in this manner:
 
        STR	RES	ASC	PORT	DURA	BLOD	QUIK
        101	1	1	0	1	0	0
@@ -39,25 +38,25 @@ each with two levels
 
   + STR = 100 * (respondent #) + (question #)
  
-       RES = response 
-       (e.g. response = A => 
-       STR	RES
-       101	1
-       101	0	
-       101	0
-       
-       response = B => 
-       STR	RES
-       101	0
-       101	1	
-       101	0
-       
-       response = C => 
-       STR	RES
-       101	0
-       101	0	
-       101	1
-       )
+RES = response 
+(e.g. response = A => 
+STR	RES
+101	1
+101	0	
+101	0
+
+response = B => 
+STR	RES
+101	0
+101	1	
+101	0
+
+response = C => 
+STR	RES
+101	0
+101	0	
+101	1
+)
 
 C. ASC= the first two lines of a question = 1, the last line = 0 
 (e.g. 
