@@ -1,18 +1,18 @@
 # poc_teg
 
 
-Methods: 
+**Methods:** 
 
 1. Download csv file from Typeform
 
 A.	File format:
 ID	question1	question 2	...	date  ...	network ID
 
-(e.g. csv data from POC_TEG.2.3.csv: 
-9da13677f8860b210b46b16e0d51b97e	A	B	C	B	B	B	B	C	2015-09-21 19:20:07	2015-09-21 19:20:24	c8426baa42
-d8153470f7cdc01dacc47e34511ff1bf	B	C	C	C	A	B	B	C	2015-09-21 19:20:26	2015-09-21 19:20:40	c8426baa42
-85f68f9033ed14a016557ad62488b84c	A	B	C	B	A	B	A	A	2015-09-21 19:20:46	2015-09-21 19:21:02	c8426baa42
-)
+       (e.g. csv data from POC_TEG.2.3.csv: 
+       9da13677f8860b210b46b16e0d51b97e	A	B	C	B	B	B	B	C	2015-09-21 19:20:07	2015-09-21 19:20:24	c8426baa42
+       d8153470f7cdc01dacc47e34511ff1bf	B	C	C	C	A	B	B	C	2015-09-21 19:20:26	2015-09-21 19:20:40	c8426baa42
+       85f68f9033ed14a016557ad62488b84c	A	B	C	B	A	B	A	A	2015-09-21 19:20:46	2015-09-21 19:21:02	c8426baa42
+       )
 
 
 2. Run cojointA.R in R
