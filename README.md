@@ -16,9 +16,9 @@ A.	File format: ID	question1	question 2	...	date  ...	network ID
 
 *2. Run cojointA.R in R*
 
-..* Make a full factorial design with four attributes ("PORT","DURA","BLOD","QUIK"), 
+  + Make a full factorial design with four attributes ("PORT","DURA","BLOD","QUIK"), 
 each with two levels 
-..* Create a fractional full factorial design ("des") , taking 8 combinations
+  + Create a fractional full factorial design ("des") , taking 8 combinations
 
 C. Take "des," rename (alt1), create a copy (alt2), jumble up the list
 
