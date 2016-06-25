@@ -4,11 +4,9 @@
 
 Various programs used to create the software needed for developing a point-of-care thromboelastography device 
 +      Conjoint analysis using methods based on http://tolstoy.newcastle.edu.au/R/e10/help/att-8876/DCE_with_R.pdf. Involves "conjointA.R," "conjointB.R", and "survey.py" 
-+      
++      Data aquisition and display system made through Adruino code and wxPython. 
 
-
-
-###Methods:
+###Methods
 
 **Conjoint analysis**
 
@@ -92,3 +90,18 @@ BLOD -1.034     0.355    0.723 -1.43 0.152
 
 "exp(coef)" is e^coef 
 "se(coef)" is the standard error of coef 
+
+**Data Aquisition and Display System**
+
+*1. Connect microcontroller*
+
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+
+
+
+
+###Dependencies 
++      csv (python)
++      AlgDesign (R)
++      survival (R)
+
