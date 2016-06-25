@@ -3,9 +3,9 @@
 
 **Methods:** 
 
-1. Download csv file from Typeform
+*1. Download csv file from Typeform*
 
-       +      A.	File format: ID	question1	question 2	...	date  ...	network ID
+A.	File format: ID	question1	question 2	...	date  ...	network ID
 
        (e.g. csv data from POC_TEG.2.3.csv: 
        9da13677f8860b210b46b16e0d51b97e	A	B	C	B	B	B	B	C	2015-09-21 19:20:07	2015-09-21 19:20:24	c8426baa42
@@ -18,8 +18,11 @@
 
 A. Make a full factorial design with four attributes ("PORT","DURA","BLOD","QUIK"), 
 each with two levels 
-B. Create a fractional full factorial design ("des") , taking 8 combinations 
+
+B. Create a fractional full factorial design ("des") , taking 8 combinations
+
 C. Take "des," rename (alt1), create a copy (alt2), jumble up the list
+
 D. write csv files of alt1 and alt2, where the first line of alt1 and the first line of 
 alt2 together form the first question
 
