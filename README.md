@@ -1,6 +1,6 @@
 # poc_teg
 
-**Synopsis** 
+##Synopsis
 
 Various programs used to create the software needed for developing a point-of-care thromboelastography device 
 +      Conjoint analysis using methods based on http://tolstoy.newcastle.edu.au/R/e10/help/att-8876/DCE_with_R.pdf. Involves "conjointA.R," "conjointB.R", and "survey.py" 
@@ -8,9 +8,9 @@ Various programs used to create the software needed for developing a point-of-ca
 
 
 
-**Methods:** 
+##Methods:
 
-###Conjoint analysis
+**Conjoint analysis**
 
 *1. Download csv file from Typeform*
 
