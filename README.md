@@ -98,7 +98,7 @@ BLOD -1.034     0.355    0.723 -1.43 0.152
 *2. Upload Arduino Software CoagVista_GUI_v2.ino* 
   + Arduino version: 1.6.9
 
-*3. Run wx_mpl_dynamic_graphy.py *
+*3. Run wx_mpl_dynamic_graphy.py*
 ```
 python wx_mpl_dynamic_graphy.py
 ```
