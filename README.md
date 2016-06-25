@@ -25,6 +25,7 @@ each with two levels
 *3. Run survey.py with Python*
   + This script takes the above csv files and formats them in this manner:
 
+```
        STR	RES	ASC	PORT	DURA	BLOD	QUIK
        101	1	1	0	1	0	0
        101	0	1	0	1	0	0
@@ -35,9 +36,9 @@ each with two levels
        103	0	1	0	1	1	1
        103	1	1	0	1	1	1
        103	0	0	0	0	0	0
-
+```
   + STR = 100 * (respondent #) + (question #)
- 
+```
 RES = response 
 (e.g. response = A => 
 STR	RES
@@ -57,24 +58,25 @@ STR	RES
 101	0	
 101	1
 )
-
-C. ASC= the first two lines of a question = 1, the last line = 0 
+```
+ASC= the first two lines of a question = 1, the last line = 0 
+```
 (e.g. 
 STR	RES	ASC
 101	1	1	
 101	0	1	
 101	0	0
 )
+```
+[PORT	DURA	BLOD	QUIK] = attributes for a given question.. if good, 1, if bad, 0
 
-D. [PORT	DURA	BLOD	QUIK] = attributes for a given question.. if good, 1, if bad, 0
+*4. Run cojointB.R in R*
 
-4. Run cojointB.R in R 
+  + "clogit" performs conditional logistic regression 
 
-A. "clogit" performs conditional logistic regression 
+*5. Correlations are found in clogout1* 
 
-
-5. Correlations are found in clogout1 
-
+```
 (e.g. 
        coef exp(coef) se(coef)     z     p
 ASC   3.300    27.109    1.297  2.54 0.011
@@ -82,6 +84,7 @@ PORT -0.313     0.731    0.695 -0.45 0.653
 DURA -0.300     0.740    0.780 -0.38 0.700
 BLOD -1.034     0.355    0.723 -1.43 0.152
 )
+```
 
 "exp(coef)" is e^coef 
 "se(coef)" is the standard error of coef 
