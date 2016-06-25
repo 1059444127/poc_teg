@@ -10,6 +10,8 @@ Various programs used to create the software needed for developing a point-of-ca
 
 **Methods:** 
 
+###Conjoint analysis
+
 *1. Download csv file from Typeform*
 
 A.	File format: ID	question1	question 2	...	date  ...	network ID
